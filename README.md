@@ -13,11 +13,13 @@ BMI: Body mass index (weight in kg/(height in m)^2).
 DiabetesPedigreeFunction: Diabetes pedigree function.
 Age: Age of the patient (years).
 Outcome: Class variable (0 if non-diabetic, 1 if diabetic).
+
 #Project Structure
 Data Loading: The dataset is loaded using pandas and preliminary analysis is conducted to understand the structure and content.
 Data Exploration: Basic statistics and visualizations are performed to gain insights into the dataset.
 Modeling: Various machine learning models from sklearn are trained and evaluated to predict the outcome.
 Evaluation: The performance of the models is assessed using metrics like accuracy, precision, recall, and F1-score.
+
 #Libraries Used
 Pandas: For data manipulation and analysis.
 NumPy: For numerical computations.
